@@ -2,7 +2,7 @@ Jenkinsfile
 
 pipeline {
   environment {
-    imagename = "devansh2698/c0886433-assignment-4"
+    imagename = "devansh2698/latest"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git([url: 'https://github.com/Devansh26/Assignment4.git', branch: 'main'])
+        git(url: 'https://github.com/Devansh26/Assignment4.git', branch: 'main')
 
       }
     }
