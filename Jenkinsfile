@@ -10,7 +10,7 @@ pipeline {
   stages {
     stage('Cloning Git') {
       steps {
-        git(url: 'https://github.com/Devansh26/Assignment4.git', branch: 'main')
+        git([url: 'https://github.com/Devansh26/Assignment4.git', branch: 'main'])
 
       }
     }
