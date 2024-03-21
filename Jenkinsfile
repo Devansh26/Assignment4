@@ -2,7 +2,7 @@ Jenkinsfile
 
 pipeline {
   environment {
-    imagename = "devansh2698/latest"
+    imagename = "devansh2698/assignment4"
     registryCredential = 'dockerhub'
     dockerImage = ''
   }
