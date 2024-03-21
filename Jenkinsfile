@@ -2,8 +2,8 @@ Jenkinsfile
 
 pipeline {
   environment {
-    imagename = "Devansh2698/c0886433-assignment-4"
-    registryCredential = 'Devansh2698'
+    imagename = "devansh2698/c0886433-assignment-4"
+    registryCredential = 'dockerhub'
     dockerImage = ''
   }
   agent any
