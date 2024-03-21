@@ -1,5 +1,3 @@
-Jenkinsfile
-
 pipeline {
   environment {
     imagename = "devansh2698/assignment4"
